@@ -1,0 +1,21 @@
+{
+  "name": "kickstarting-node-js",
+  "version": "1.0.0",
+  "description": "Complete Node.js Guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KunjYadav/Kickstarting-Node-Js.git"
+  },
+  "author": "Kunj Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KunjYadav/Kickstarting-Node-Js/issues"
+  },
+  "homepage": "https://github.com/KunjYadav/Kickstarting-Node-Js#readme"
+}
