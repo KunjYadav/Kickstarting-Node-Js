@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "start-server": "node app.js"
   },
   "repository": {
@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/KunjYadav/Kickstarting-Node-Js/issues"
   },
-  "homepage": "https://github.com/KunjYadav/Kickstarting-Node-Js#readme"
+  "homepage": "https://github.com/KunjYadav/Kickstarting-Node-Js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
 }
