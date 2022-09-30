@@ -1,6 +1,9 @@
-// arrow function which returns the product of two numbers
-const product = (a, b) => {
-    return a * b;
-}
+const student = {
+    name: 'Kunj',
+    age: 26,
+    greet() {
+        console.log('Hi, I am ' + this.name);
+    }
+};
 
-console.log(product(3, 4));
+student.greet();
