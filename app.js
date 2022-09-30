@@ -1,16 +1,7 @@
-//1 & 2..................
-array1 = ['apple', 'oranges', '', 'mango', '', 'lemon']
-let array2 = array1.map((arrayData) => {
-    return arrayData;
-}).filter((data) => {
-    if (data.length > 0) {
-        return data;
-    }
-})
-console.log(array2);
+const http = require('http');
 
-
-//3..............
-const hobbies = ['Sports', 'Cooking'];
-hobbies.push('Programming');
-console.log(hobbies);
+const server = http.createServer((req, res) => {
+    res.write('Kunj Yadav!');
+    res.end();
+});
+server.listen(4000);
