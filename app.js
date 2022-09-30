@@ -1,21 +1,16 @@
-class Student {
-    constructor(name, age, marks) {
-        this.name = name;
-        this.age = age;
-        this.marks = marks;
+//1 & 2..................
+array1 = ['apple', 'oranges', '', 'mango', '', 'lemon']
+let array2 = array1.map((arrayData) => {
+    return arrayData;
+}).filter((data) => {
+    if (data.length > 0) {
+        return data;
     }
-    setPacementAge(minPlacementAge) {
-        return (minMarks) => {
-            if(this.marks > minMarks && this.age > minPlacementAge) {
-                console.log(this.name + " is ready for Placements");
-            } else {
-                console.log(this.name + " is not ready for Placements");
-            }
-        }
-    }
-}
+})
+console.log(array2);
 
-const Yash = new Student('yash', 25, 75);
-const Vaibhav = new Student('vaibhav', 13, 35);
 
-Yash.setPacementAge(18)(40);
+//3..............
+const hobbies = ['Sports', 'Cooking'];
+hobbies.push('Programming');
+console.log(hobbies);
